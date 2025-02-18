@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 486px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.h-scroll {
+  height: 100vh;
+  height: 100svh;
+}
